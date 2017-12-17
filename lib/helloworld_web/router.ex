@@ -18,6 +18,8 @@ defmodule HelloworldWeb.Router do
 
     get "/", PageController, :index
     get "/custom", CustomController, :custom
+    get "/custom/another", CustomController, :another
+    get "/custom/:messenger", CustomController, :msg
   end
  
 
