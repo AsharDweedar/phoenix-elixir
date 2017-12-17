@@ -1,0 +1,18 @@
+
+<div class="jumbotron">
+cloned div
+<div class="jumbotron">
+  <h2><%= gettext "Welcome to %{name}!", name: "phx" %></h2>
+  <p class="lead">hi<br />world</p>
+</div>
+
+<div class="row marketing">
+  <div class="col-lg-6">
+    <P> name var is here : <%= @conn.params["name"] %> </P>
+  </div>
+
+  <div class="col-lg-6">
+    
+  </div>
+</div>
+</div>
