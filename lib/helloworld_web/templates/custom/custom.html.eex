@@ -1,1 +1,1 @@
-<h1> hi there </h1>
+<h1> hi there, this is custom ,one for you : <%= @conn.params["name"] %> </h1>
