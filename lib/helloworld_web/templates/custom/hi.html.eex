@@ -1,0 +1,2 @@
+<h1> hi , this is hi : <%= @conn.params["name"] %> </h1>
+<%# <a href="<%= page_path(@conn, :custom) % >">To the hi Page!</a> %>

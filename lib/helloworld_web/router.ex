@@ -25,12 +25,10 @@ defmodule HelloworldWeb.Router do
     """
     post "/", PageController, :postme
     get "/", PageController, :index
-  end
-  scope "/custom", HelloworldWeb do
-    pipe_through :browser
 
     get "/custom", CustomController, :custom
     get "/custom/another", CustomController, :another
+    get "/custom/another/hi", CustomController, :hi
     get "/custom/:name", CustomController, :msg
     # get "/", RootController, :index #will never get excuted => in order the line above will take the rout and the search for other matches will stop
     resources "/users", UserController, only: [:index, :edit] #select some of the standard routes that comes with it 
