@@ -2,7 +2,7 @@
 <div class="jumbotron">
 cloned div
 <div class="jumbotron">
-  <h2><%= gettext "Welcome to %{name}!", name: "phx" %></h2>
+  <h1><%= gettext "Welcome to %{name}!", name: "phx" %></h1>
   <p class="lead">hi<br />world</p>
 </div>
 

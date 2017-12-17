@@ -1,3 +1,4 @@
+"""
 defmodule Chatter.RoomChannel do
     use Chatter.Web, :channel
     alias Chatter.Presence
@@ -16,3 +17,4 @@ defmodule Chatter.RoomChannel do
         {:noreply, soxket}
         end
 end
+"""
