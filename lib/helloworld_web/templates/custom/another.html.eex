@@ -1,1 +1,3 @@
 <h1> another , one for you : <%= @conn.params["name"] %> </h1>
+
+<a href="<%= page_path(@conn, :index) %>">To the Welcome Page!</a>
