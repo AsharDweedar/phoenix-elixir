@@ -14,6 +14,7 @@ defmodule Helloworld.Application do
       supervisor(HelloworldWeb.Endpoint, []),
       # Start your own worker by calling: Helloworld.Worker.start_link(arg1, arg2, arg3)
       # worker(Helloworld.Worker, [arg1, arg2, arg3]),
+      supervisor(Helloworld.Presence, []),
     ]
 
     # See https://hexdocs.pm/elixir/Supervisor.html
